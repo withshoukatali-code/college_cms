@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* ==========================================
+   GLOBAL RESET
+========================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    "Inter",
+    system-ui,
+    sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+@import "tailwindcss";
+
+:root {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #1e293b;
+}
