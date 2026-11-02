@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* -----------------------------
+   CMS Theme
+------------------------------*/
+
+@theme {
+
+  /* Brand */
+
+  --color-primary: #123A73;
+  --color-primary-dark: #0F2D5C;
+  --color-primary-light: #2563EB;
+
+  /* NAAC */
+
+  --color-naac: #047857;
+  --color-naac-light: #10B981;
+
+  /* Premium */
+
+  --color-gold: #D4A017;
+
+  /* Alerts */
+
+  --color-warning: #EA580C;
+  --color-danger: #DC2626;
+
+  /* Neutral */
+
+  --color-text: #111827;
+  --color-muted: #64748B;
+  --color-border: #E2E8F0;
+  --color-background: #FFFFFF;
+
+}
+
+
+/* -----------------------------
+   Fonts
+------------------------------*/
+
+.font-manrope{
+    font-family:"Manrope",sans-serif;
+}
+
+.font-inter{
+    font-family:"Inter",sans-serif;
+}
+
+
+/* -----------------------------
+   Base
+------------------------------*/
+
+:root{
+    font-family:"Inter",sans-serif;
+}
+
+body{
+
+    margin:0;
+
+    min-width:320px;
+
+    min-height:100vh;
+
+    background:#ffffff;
+
+    color:#111827;
+
+    overflow-x:hidden;
+
+}

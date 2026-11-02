@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+:root {
+  font-family: "Inter", system-ui, sans-serif;
+}
 /* ==========================================
    GLOBAL RESET
 ========================================== */
@@ -32,14 +35,35 @@ img {
 button {
   cursor: pointer;
 }
-@import "tailwindcss";
 
-:root {
-  font-family: "Inter", system-ui, sans-serif;
-}
 
 body {
   margin: 0;
   background: #f8fafc;
   color: #1e293b;
+}
+
+.font-manrope {
+    font-family: "Manrope", sans-serif;
+}
+
+/* Breaking News Scrolling */
+.breaking-marquee {
+  display: inline-flex;
+  min-width: max-content;
+  animation: breakingNewsScroll 25s linear infinite;
+}
+
+.breaking-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes breakingNewsScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
